@@ -14,7 +14,7 @@ EQ            = =
 
 CC            = gcc
 CXX           = g++
-DEFINES       = -DVERSION_MAJOR=1 -DVERSION_MINOR=0 -DVERSION_BUILD=19 -DQT_CHARTS_LIB -DQT_QUICKWIDGETS_LIB -DQT_WIDGETS_LIB -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
+DEFINES       = -DVERSION_MAJOR=1 -DVERSION_MINOR=0 -DVERSION_BUILD=20 -DQT_CHARTS_LIB -DQT_QUICKWIDGETS_LIB -DQT_WIDGETS_LIB -DQT_QUICK_LIB -DQT_GUI_LIB -DQT_SERIALPORT_LIB -DQT_QML_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -pipe -g -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 CXXFLAGS      = -pipe -g -std=gnu++11 -Wall -W -D_REENTRANT -fPIC $(DEFINES)
 INCPATH       = -I. -I. -I../../../Qt/5.12.9/gcc_64/include -I../../../Qt/5.12.9/gcc_64/include/QtCharts -I../../../Qt/5.12.9/gcc_64/include/QtQuickWidgets -I../../../Qt/5.12.9/gcc_64/include/QtWidgets -I../../../Qt/5.12.9/gcc_64/include/QtQuick -I../../../Qt/5.12.9/gcc_64/include/QtGui -I../../../Qt/5.12.9/gcc_64/include/QtSerialPort -I../../../Qt/5.12.9/gcc_64/include/QtQml -I../../../Qt/5.12.9/gcc_64/include/QtNetwork -I../../../Qt/5.12.9/gcc_64/include/QtCore -I. -isystem /usr/include/libdrm -I. -I../../../Qt/5.12.9/gcc_64/mkspecs/linux-g++
@@ -36,8 +36,8 @@ DEL_DIR       = rmdir
 MOVE          = mv -f
 TAR           = tar -cf
 COMPRESS      = gzip -9f
-DISTNAME      = BlackPillTools1.0.19
-DISTDIR = /home/alarm/Project/Qt/bp_tools/.tmp/BlackPillTools1.0.19
+DISTNAME      = BlackPillTools1.0.20
+DISTDIR = /home/alarm/Project/Qt/bp_tools/.tmp/BlackPillTools1.0.20
 LINK          = g++
 LFLAGS        = -Wl,-rpath,/home/alarm/Qt/5.12.9/gcc_64/lib
 LIBS          = $(SUBLIBS) /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Charts.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5QuickWidgets.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Widgets.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Quick.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Gui.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5SerialPort.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Qml.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Network.so /home/alarm/Qt/5.12.9/gcc_64/lib/libQt5Core.so -lGL -lpthread   

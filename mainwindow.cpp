@@ -182,6 +182,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     fromDev = new QHostAddress();
     udpPort = 8004;
     //
+    ui->actionTCP->setEnabled(false);
     srvAddr.clear();
     connect(ui->actionTCP, &QAction::triggered, this, &MainWindow::beginTcp);
     tcpSock = nullptr;
@@ -256,6 +257,7 @@ void MainWindow::getUdpPack()
                     if (!srvAddr.length()) {
                         srvAddr = fromDev->toString();
                         toStatusLine("Device addr is " + srvAddr, picInfo);
+                        ui->actionTCP->setEnabled(true);
                     }
                 }
             }
@@ -361,6 +363,7 @@ void MainWindow::slot_tcpConnected()
     killTimer(tmr_tcp);
     tmr_tcp = 0;
 
+    connect(tcpSock, SIGNAL(error(QAbstractSocket::SocketError)), this, SLOT(slotErrorClient(QAbstractSocket::SocketError)));
     connect(tcpSock, SIGNAL(readyRead()), this, SLOT(getTcpPack()));
     connect(tcpSock, &QAbstractSocket::disconnected, this, &MainWindow::slot_tcpDone);
 
@@ -410,6 +413,7 @@ void MainWindow::slot_tcpTimeOut()
 //-----------------------------------------------------------------------
 void MainWindow::getTcpPack()
 {
+    if (!tcpSock) return;
 
     tcpPack += tcpSock->readAll();
 
@@ -438,6 +442,19 @@ void MainWindow::getTcpPack()
         //
     }
 
+}
+//-----------------------------------------------------------------------
+void MainWindow::slotErrorClient(QAbstractSocket::SocketError SErr)
+{
+    QString qs = "Socket ERROR (" + QString::number(static_cast<int>(SErr), 10) + ") : " + tcpSock->errorString();
+
+    LogSave(qs);
+    toStatusLine(qs, picDis);
+
+    tcpSock->disconnect();
+    tcpSock = nullptr;
+
+    emit sig_tcpDone();
 }
 //-----------------------------------------------------------------------
 void MainWindow::docShow()

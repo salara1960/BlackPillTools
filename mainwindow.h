@@ -163,6 +163,8 @@ protected:
 
 public slots:
 
+    void slotErrorClient(QAbstractSocket::SocketError);
+
     void slotButtonData();
     void KeyProg(QString);
     int initSerial();
