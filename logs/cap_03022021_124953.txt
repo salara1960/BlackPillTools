@@ -1,0 +1,87 @@
+[2] 16.01 10:36:38 | device=W5500 ip=192.168.0.150
+	[Connected] Connect to client:  192.168.0.101
+{"time":"16.01 10:36:44","ms":21010,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.21,"humi":38.86},"QMC5883L":{"azimut":332.03,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.48,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:36:47","ms":23590,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.21,"humi":38.82},"QMC5883L":{"azimut":332.21,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.45,"accel":[0,0,0],"gyro":[0,0,-1]}}
+[3] 16.01 10:36:48 | device=W5500 ip=192.168.0.150
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+lan
+[4] 16.01 10:36:58 | device=W5500 ip=192.168.0.150
+	LAN : LinkUp 100Mpbs FullDuplex
+{"time":"16.01 10:36:57","ms":33590,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.21,"humi":38.45},"QMC5883L":{"azimut":332.49,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:36:59","ms":35320,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.20,"humi":38.39},"QMC5883L":{"azimut":332.31,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.46,"accel":[0,0,0],"gyro":[0,0,-1]}}
+Socket ERROR (1) : The remote host closed the connection
+{"time":"16.01 10:37:04","ms":41010,"fifo":[1,5],"devError":0,"v{"time":"16.01 10:37:14","ms":51010,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.25,"humi":38.47},"QMC5883L":{"azimut":332.30,"temp2":26.98},"MPU6050":{"stat":1,"temp3":36.47,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:37:19","ms":55220,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.31,"temp":25.24,"humi":38.53},"QMC5883L":{"azimut":332.30,"temp2":26.98},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:37:21","ms":57120,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.25,"humi":38.56},"QMC5883L":{"azimut":332.25,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+{"time":"16.01 10:37:31","ms":67120,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.24,"humi":38.42},"QMC5883L":{"azimut":332.25,"temp2":26.98},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"16.01 10:37:41","ms":77120,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.36},"QMC5883L":{"azimut":332.20,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612349540:2
+[9] 03.02 12:52:26 | device=W5500 ip=192.168.0.150
+{"time":"03.02 12:52:28","ms":87120,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.36},"QMC5883L":{"azimut":331.98,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+	[Connected] Connect to client:  192.168.0.101
+{"time":"03.02 12:52:38","ms":97120,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.35},"QMC5883L":{"azimut":332.03,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"03.02 12:52:38","ms":97210,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.24,"humi":38.34},"QMC5883L":{"azimut":332.27,"temp2":26.86},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"03.02 12:52:40","ms":98920,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.24,"humi":38.32},"QMC5883L":{"azimut":332.33,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+epoch=1612349566:2
+get
+{"time":"03.02 12:52:49","ms":108330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.25,"temp":25.24,"humi":38.31},"QMC5883L":{"azimut":332.33,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+period=1000
+{"time":"03.02 12:52:59","ms":118330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.26,"humi":38.46},"QMC5883L":{"azimut":332.29,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:00","ms":119330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.27,"humi":38.48},"QMC5883L":{"azimut":332.34,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.47,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:01","ms":120330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.26,"humi":38.47},"QMC5883L":{"azimut":332.44,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:02","ms":121330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.26,"humi":38.49},"QMC5883L":{"azimut":332.27,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:03","ms":122330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.27,"humi":38.48},"QMC5883L":{"azimut":332.48,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.48,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:04","ms":123330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.28,"humi":38.51},"QMC5883L":{"azimut":332.71,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:05","ms":124330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.27,"humi":38.59},"QMC5883L":{"azimut":332.32,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:06","ms":125330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.23,"temp":25.27,"humi":38.69},"QMC5883L":{"azimut":332.21,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:07","ms":126330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.28,"humi":38.75},"QMC5883L":{"azimut":331.95,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.53,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:08","ms":127330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.28,"humi":38.75},"QMC5883L":{"azimut":332.09,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:09","ms":128330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.28,"humi":38.69},"QMC5883L":{"azimut":332.10,"temp2":26.90},"MPU6050":{"stat":1,"temp3":36.48,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:10","ms":129330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.25,"temp":25.27,"humi":38.64},"QMC5883L":{"azimut":332.16,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:11","ms":130330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.27,"humi":38.66},"QMC5883L":{"azimut":332.45,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.48,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:12","ms":131330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.27,"humi":38.64},"QMC5883L":{"azimut":332.35,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:13","ms":132330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.27,"humi":38.61},"QMC5883L":{"azimut":332.27,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:14","ms":133330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.27,"humi":38.58},"QMC5883L":{"azimut":332.32,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:15","ms":134330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.33,"temp":25.28,"humi":38.53},"QMC5883L":{"azimut":332.25,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:16","ms":135330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.31,"temp":25.27,"humi":38.50},"QMC5883L":{"azimut":332.13,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:17","ms":136330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.26,"humi":38.51},"QMC5883L":{"azimut":332.15,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:18","ms":137330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.26,"humi":38.50},"QMC5883L":{"azimut":332.27,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:19","ms":138330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.24,"humi":38.51},"QMC5883L":{"azimut":331.97,"temp2":26.87},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:20","ms":139330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.24,"humi":38.56},"QMC5883L":{"azimut":332.33,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:21","ms":140330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.24,"humi":38.57},"QMC5883L":{"azimut":332.02,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.49,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:22","ms":141330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.23,"temp":25.24,"humi":38.56},"QMC5883L":{"azimut":332.50,"temp2":26.94},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:23","ms":142330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.23,"humi":38.54},"QMC5883L":{"azimut":332.18,"temp2":26.97},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:24","ms":143330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.24,"humi":38.56},"QMC5883L":{"azimut":332.29,"temp2":26.96},"MPU6050":{"stat":1,"temp3":26.74,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:25","ms":144330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.23,"humi":38.52},"QMC5883L":{"azimut":331.87,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:26","ms":145330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.23,"humi":38.52},"QMC5883L":{"azimut":332.14,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:27","ms":146330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.23,"humi":38.54},"QMC5883L":{"azimut":332.18,"temp2":26.98},"MPU6050":{"stat":1,"temp3":36.50,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:28","ms":147330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.24,"humi":38.53},"QMC5883L":{"azimut":332.12,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:29","ms":148330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.57},"QMC5883L":{"azimut":332.22,"temp2":26.96},"MPU6050":{"stat":1,"temp3":26.75,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:30","ms":149330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.25,"temp":25.21,"humi":38.58},"QMC5883L":{"azimut":331.56,"temp2":26.91},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:31","ms":150330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.23,"humi":38.62},"QMC5883L":{"azimut":332.00,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:32","ms":151330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.23,"humi":38.61},"QMC5883L":{"azimut":332.11,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:33","ms":152330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.24,"temp":25.23,"humi":38.60},"QMC5883L":{"azimut":332.46,"temp2":26.95},"MPU6050":{"stat":1,"temp3":26.75,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:34","ms":153330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.23,"humi":38.59},"QMC5883L":{"azimut":332.25,"temp2":26.95},"MPU6050":{"stat":1,"temp3":26.76,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:35","ms":154330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.23,"humi":38.60},"QMC5883L":{"azimut":331.80,"temp2":26.95},"MPU6050":{"stat":1,"temp3":26.74,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:36","ms":155330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.24,"temp":25.23,"humi":38.57},"QMC5883L":{"azimut":332.50,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:37","ms":156330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.57},"QMC5883L":{"azimut":331.89,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.74,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:38","ms":157330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.27,"temp":25.24,"humi":38.56},"QMC5883L":{"azimut":332.25,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:39","ms":158330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.29,"temp":25.24,"humi":38.56},"QMC5883L":{"azimut":331.90,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.52,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:40","ms":159330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.26,"temp":25.23,"humi":38.56},"QMC5883L":{"azimut":332.03,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:41","ms":160330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.30,"temp":25.23,"humi":38.57},"QMC5883L":{"azimut":332.31,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:42","ms":161330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.24,"temp":25.23,"humi":38.57},"QMC5883L":{"azimut":332.30,"temp2":26.94},"MPU6050":{"stat":1,"temp3":26.76,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:43","ms":162330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.31,"temp":25.25,"humi":38.55},"QMC5883L":{"azimut":331.97,"temp2":26.96},"MPU6050":{"stat":1,"temp3":36.53,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"03.02 12:53:44","ms":163330,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":750.28,"temp":25.23,"humi":38.56},"QMC5883L":{"azimut":331.97,"temp2":26.95},"MPU6050":{"stat":1,"temp3":36.51,"accel":[0,0,0],"gyro":[0,0,-1]}}

@@ -255,9 +255,9 @@ private:
     QString keyArr[keyCnt];
     pwdDialog *keys;
     QPushButton *keyAdr[keyCnt];
-    QString keyName[keyCnt] = {"rst", "udp_off", "udp_on", "epoch", "set min\nperiod", "set max\nperiod"};
+    QString keyName[keyCnt] = {"rst", "udp_off", "udp_on", "epoch", "set min\nperiod", "set max\nperiod", "get", "lan"};
     const QString keyDataInfo[keyCnt] = {"Restart", "Shift On/Off", "Set time", "Min period", "Max period", ""};
-    const QString keyData[keyCnt] = {"rst\r\n", "udp_off\r\n", "udp_on\r\n", "epoch", "period=1000\r\n", "period=5000\r\n"};
+    const QString keyData[keyCnt] = {"rst\r\n", "udp_off\r\n", "udp_on\r\n", "epoch", "period=1000\r\n", "period=5000\r\n", "get\r\n", "lan\r\n"};
     //
     const QString parName[parCnt] = {"fifo:", "devError=", "Vcc=", "pres=", "temp=", "humi=", "azimut=", "temp2=", "temp3=", "accel=", "gyro="};
     //

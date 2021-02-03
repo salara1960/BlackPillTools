@@ -31,7 +31,7 @@
 
 #define BUF_SIZE          2048
 #define max_buf           2048
-#define keyCnt            6
+#define keyCnt            8//6
 #define parCnt            11
 #define jnameCnt          8
 #define js1Cnt            3

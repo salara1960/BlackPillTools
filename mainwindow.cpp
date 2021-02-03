@@ -15,7 +15,7 @@
 
 //******************************************************************************************************
 
-qint32 serSpeed = 115200;
+qint32 serSpeed = 230400;//115200;
 
 
 //******************************************************************************************************
@@ -123,7 +123,10 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
     keyAdr[keyId++] = ui->bin;
     keyAdr[keyId++] = ui->txt;
     keyAdr[keyId++] = ui->one;
-    keyAdr[keyId]   = ui->defmode;
+    keyAdr[keyId++] = ui->defmode;
+    keyAdr[keyId++] = ui->get;
+    keyAdr[keyId]   = ui->lan;
+
     for (int i = 0; i < keyCnt; ++i) {
         keyArr[i].clear();
         keyArr[i].append(keyData[i]);
@@ -172,6 +175,7 @@ MainWindow::MainWindow(QWidget *parent) : QMainWindow(parent), ui(new Ui::MainWi
         MyError |= 4;//create settings object error
         throw TheError(MyError);
     }
+    connect(ui->actionPORT,       &QAction::triggered,     conf, &SettingsDialog::sig_confShow);
     //
 
     goToLogs();
@@ -225,7 +229,7 @@ void MainWindow::beginUdp()
         delete udpSock;
         udpSock = nullptr;
         toStatusLine("", picDis);
-        if (!tcpSock) {
+        if (!tcpSock && !con) {
             ui->log->setEnabled(false);
             ui->actionCLEAR->setEnabled(false);
         }
@@ -285,7 +289,7 @@ void MainWindow::slot_tcpDone()
         }
 
         if (tcpOut != tcpTimeOut) toStatusLine("", picDis);
-        if (!udpSock) {
+        if (!udpSock && !con) {
             ui->log->setEnabled(false);
             ui->actionCLEAR->setEnabled(false);
         }
