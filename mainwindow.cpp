@@ -555,7 +555,7 @@ void MainWindow::keyPrs()
     for (int i = 0; i < keyCnt; i++) {
         if (sender() == keyAdr[i]) {
             keyId = i;
-            if (sdev || tcp_connect) {
+            if (con || tcp_connect) {
                 QByteArray m; m.append(keyArr[keyId]);
                 emit sigWrite(m);
             } else {
@@ -816,21 +816,29 @@ void MainWindow::on_disconnect()
 
     toStatusLine(tr("Отключен от последовательного порта ") + sdevName, picDis);
 
+    //
+    if (!udpSock && !tcp_connect) {
+        ui->log->setEnabled(false);
+        ui->actionCLEAR->setEnabled(false);
+    }
+    //
+
     ui->actionPORT->setEnabled(true);
     ui->actionCONNECT->setEnabled(true);
 
     ui->actionDISCONNECT->setEnabled(false);
-    ui->actionCLEAR->setEnabled(false);
-    ui->actionDeep->setEnabled(false);
-    ui->actionHUMI->setEnabled(false);
-    ui->actionCOMPAS->setEnabled(false);
-    ui->actionTemp->setEnabled(false);
-    ui->actionVolt->setEnabled(false);
 
-    ui->stx->setEnabled(false);
-    ui->crlfBox->setEnabled(false);
-    ui->answer->setEnabled(false);
-    ui->log->setEnabled(false);
+    if (!tcp_connect) {
+        ui->actionDeep->setEnabled(false);
+        ui->actionHUMI->setEnabled(false);
+        ui->actionCOMPAS->setEnabled(false);
+        ui->actionTemp->setEnabled(false);
+        ui->actionVolt->setEnabled(false);
+
+        ui->stx->setEnabled(false);
+        ui->crlfBox->setEnabled(false);
+        ui->answer->setEnabled(false);
+    }
 
     ui->sensor1->setText("Sensor ");
     ui->sensor2->setText("Sensor ");
@@ -852,7 +860,7 @@ void MainWindow::slotWrite(QByteArray & mas)
         }
 
         if (sdev) {
-            if (sdev->isOpen()) sdev->write(m.toLocal8Bit());
+            if (con) sdev->write(m.toLocal8Bit());
         }
         if (tcpSock) {
             if (tcp_connect) tcpSock->write(m.toLocal8Bit());

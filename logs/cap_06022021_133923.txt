@@ -1,0 +1,10 @@
+{"time":"06.02 13:35:24","ms":132600,"fifo":[1,5],"devError":0,"{"time":"06.02 13:39:46","ms":394520,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":26.16,"humi":30.31},"QMC5883L":{"azimut":336.74,"temp2":26.99},"MPU6050":{"stat":1,"temp3":26.90,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 13:39:48","ms":396200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.67,"temp":26.17,"humi":30.09},"QMC5883L":{"azimut":336.14,"temp2":26.99},"MPU6050":{"stat":1,"temp3":26.92,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 13:39:58","ms":406200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":26.17,"humi":30.00},"QMC5883L":{"azimut":336.48,"temp2":27.00},"MPU6050":{"stat":1,"temp3":26.92,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 13:40:08","ms":416200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":26.17,"humi":29.71},"QMC5883L":{"azimut":336.07,"temp2":27.01},"MPU6050":{"stat":1,"temp3":26.92,"accel":[0,0,0],"gyro":[0,0,-1]}}
+udp_off
+{"time":"06.02 13:40:18","ms":426200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.55,"temp":26.17,"humi":29.31},"QMC5883L":{"azimut":336.40,"temp2":27.04},"MPU6050":{"stat":1,"temp3":26.92,"accel":[0,0,0],"gyro":[0,0,-1]}}
+udp_on
+{"time":"06.02 13:40:28","ms":436200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":26.18,"humi":29.03},"QMC5883L":{"azimut":336.65,"temp2":27.04},"MPU6050":{"stat":1,"temp3":26.90,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 13:40:38","ms":446200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.66,"temp":26.20,"humi":29.04},"QMC5883L":{"azimut":336.36,"temp2":26.99},"MPU6050":{"stat":1,"temp3":26.93,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 13:40:48","ms":456200,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":26.20,"humi":28.88},"QMC5883L":{"azimut":336.06,"temp2":26.98},"MPU6050":{"stat":1,"temp3":26.89,"accel":[0,0,0],"gyro":[0,0,-1]}}

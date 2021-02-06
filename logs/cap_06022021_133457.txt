@@ -1,0 +1,10 @@
+{"time":"16.01 10:38:06","ms":102090,"fifo":[1,5],"devError":0,"get
+{"time":"16.01 10:38:14","ms":110900,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.66,"temp":26.20,"humi":29.74},"QMC5883L":{"azimut":336.01,"temp2":26.95},"MPU6050":{"stat":1,"temp3":26.91,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:38:16","ms":112600,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.65,"temp":26.18,"humi":29.72},"QMC5883L":{"azimut":336.16,"temp2":26.94},"MPU6050":{"stat":1,"temp3":26.92,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612611307:2
+{"time":"06.02 13:35:14","ms":122600,"fifo":[1,5],"devError":0,"volt":3.30,"BME280":{"pres":764.65,"temp":26.18,"humi":31.69},"QMC5883L":{"azimut":337.04,"temp2":26.94},"MPU6050":{"stat":1,"temp3":26.91,"accel":[0,0,0],"gyro":[0,0,-1]}}
+lan
+	Lan:Up 100Full
+lan
+	Lan:Up 100Full

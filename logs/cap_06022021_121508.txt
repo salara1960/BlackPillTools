@@ -1,0 +1,75 @@
+{"time":"16.01 10:36:35","ms":11173,"fifo":[1,64],"devError":0,"get
+{"time":"16.01 10:36:43","ms":19510,"fifo":[0,64],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.42,"humi":26.79},"QMC5883L":{"azimut":337.50,"temp2":26.86},"MPU6050":{"stat":1,"temp3":26.27,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:36:45","ms":21390,"fifo":[0,64],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.42,"humi":26.79},"QMC5883L":{"azimut":337.50,"temp2":26.86},"MPU6050":{"stat":1,"temp3":26.27,"accel":[0,0,0],"gyro":[0,0,-1]}}
+rst
+	Tcp socket create OK. Listen (1) tcp client...
+{"time":"16.01 10:36:25","ms":1176,"fifo":[1,19],"devError":0,"volt":3.29,"BME280":{"pres":764.62,"temp":25.41,"humi":26.19},"QMC5883L":{"azimut":336.45,"temp2":26.81},"MPU6050":{"stat":1,"temp3":26.24,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612606526:2
+{"time":"06.02 12:15:33","ms":11176,"fifo":[1,19],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.41,"humi":26.49},"QMC5883L":{"azimut":336.52,"temp2":26.86},"MPU6050":{"stat":1,"temp3":26.24,"accel":[0,0,0],"gyro":[0,0,-1]}}
+[2] 06.02 12:15:37 | device=W5500 ip=192.168.0.150
+	[Connected] Connect to client:  192.168.0.101
+	[Connected] Connect to client:  192.168.0.101
+{"time":"06.02 12:15:43","ms":21177,"fifo":[0,19],"devError":0,"volt":3.30,"BME280":{"pres":764.63,"temp":25.41,"humi":26.62},"QMC5883L":{"azimut":336.61,"temp2":26.85},"MPU6050":{"stat":1,"temp3":26.29,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:15:43","ms":21177,"fifo":[0,19],"devError":0,"volt":3.30,"BME280":{"pres":764.63,"temp":25.41,"humi":26.62},"QMC5883L":{"azimut":336.61,"temp2":26.85},"MPU6050":{"stat":1,"temp3":26.29,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+get
+get
+get
+[3] 06.02 12:15:47 | device=W5500 ip=192.168.0.150
+	Tcp socket create OK. Listen (1) tcp client...
+{"time":"16.01 10:36:25","ms":1176,"fifo":[2,20],"devError":0,"volt":3.29,"BME280":{"pres":764.63,"temp":25.44,"humi":28.54},"QMC5883L":{"azimut":336.78,"temp2":26.79},"MPU6050":{"stat":1,"temp3":26.30,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"16.01 10:36:35","ms":11177,"fifo":[1,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.44,"humi":27.17},"QMC5883L":{"azimut":337.69,"temp2":26.84},"MPU6050":{"stat":1,"temp3":26.31,"accel":[0,0,0],"gyro":[0,0,-1]}}
+[2] 16.01 10:36:39 | device=W5500 ip=192.168.0.150
+Socket ERROR (1) : The remote host closed the connection
+epoch=1612606570:2
+[3] 06.02 12:16:13 | device=W5500 ip=192.168.0.150
+{"time":"06.02 12:16:15","ms":21177,"fifo":[1,20],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.45,"humi":26.67},"QMC5883L":{"azimut":337.36,"temp2":26.88},"MPU6050":{"stat":1,"temp3":26.31,"accel":[0,0,0],"gyro":[0,0,-1]}}
+[5] 06.02 12:16:33 | device=W5500 ip=192.168.0.150
+	[Connected] Connect to client:  192.168.0.101
+get
+{"time":"06.02 12:16:41","ms":46290,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.46,"humi":26.71},"QMC5883L":{"azimut":337.70,"temp2":26.90},"MPU6050":{"stat":1,"temp3":26.32,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612606603:2
+period=1000
+get
+{"time":"06.02 12:16:46","ms":51820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.46,"humi":26.52},"QMC5883L":{"azimut":337.00,"temp2":26.90},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:48","ms":53820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.45,"humi":26.57},"QMC5883L":{"azimut":336.75,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:49","ms":54820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":25.45,"humi":26.50},"QMC5883L":{"azimut":337.45,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.33,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:50","ms":55820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.45,"humi":26.43},"QMC5883L":{"azimut":337.65,"temp2":26.82},"MPU6050":{"stat":1,"temp3":26.36,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:51","ms":56820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.63,"temp":25.45,"humi":26.44},"QMC5883L":{"azimut":337.25,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.15,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:53","ms":58820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.63,"temp":25.47,"humi":26.53},"QMC5883L":{"azimut":336.95,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.34,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:54","ms":59820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.47,"humi":26.59},"QMC5883L":{"azimut":336.83,"temp2":26.82},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:55","ms":60820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.46,"humi":26.64},"QMC5883L":{"azimut":337.44,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:56","ms":61820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.45,"humi":26.68},"QMC5883L":{"azimut":337.04,"temp2":26.80},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:57","ms":62820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.47,"humi":26.73},"QMC5883L":{"azimut":336.94,"temp2":26.87},"MPU6050":{"stat":1,"temp3":36.15,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:58","ms":63820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.46,"humi":26.74},"QMC5883L":{"azimut":336.93,"temp2":26.87},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:16:59","ms":64820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.45,"humi":26.68},"QMC5883L":{"azimut":337.23,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:00","ms":65820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.46,"humi":26.61},"QMC5883L":{"azimut":337.72,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:01","ms":66820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.48,"humi":26.56},"QMC5883L":{"azimut":337.18,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.18,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:03","ms":68820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.47,"humi":26.37},"QMC5883L":{"azimut":336.60,"temp2":26.90},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:04","ms":69820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.47,"humi":26.30},"QMC5883L":{"azimut":337.11,"temp2":26.81},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:05","ms":70820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.46,"humi":26.26},"QMC5883L":{"azimut":336.79,"temp2":26.90},"MPU6050":{"stat":1,"temp3":36.20,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:06","ms":71820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.46,"humi":26.26},"QMC5883L":{"azimut":336.95,"temp2":26.78},"MPU6050":{"stat":1,"temp3":36.17,"accel":[0,0,0],"gyro":[0,0,-1]}}
+	[Connected] Connect to client:  192.168.0.101
+{"time":"06.02 12:17:29","ms":94820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.49,"humi":25.93},"QMC5883L":{"azimut":337.66,"temp2":26.81},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:30","ms":95820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.50,"humi":25.91},"QMC5883L":{"azimut":336.46,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.17,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:31","ms":96820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":25.49,"humi":25.94},"QMC5883L":{"azimut":336.81,"temp2":26.90},"MPU6050":{"stat":1,"temp3":26.36,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:32","ms":97820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.48,"humi":26.00},"QMC5883L":{"azimut":337.36,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:33","ms":98820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.66,"temp":25.50,"humi":26.30},"QMC5883L":{"azimut":337.30,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:35","ms":100820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":25.49,"humi":26.58},"QMC5883L":{"azimut":337.36,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.17,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:36","ms":101820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.48,"humi":26.56},"QMC5883L":{"azimut":337.13,"temp2":26.88},"MPU6050":{"stat":1,"temp3":26.36,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:37","ms":102820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.49,"humi":26.60},"QMC5883L":{"azimut":337.66,"temp2":26.85},"MPU6050":{"stat":1,"temp3":36.15,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:38","ms":103820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.56,"temp":25.48,"humi":26.71},"QMC5883L":{"azimut":336.86,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.17,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:40","ms":105820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.48,"humi":27.08},"QMC5883L":{"azimut":337.11,"temp2":26.91},"MPU6050":{"stat":1,"temp3":26.36,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:41","ms":106820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.49,"humi":27.11},"QMC5883L":{"azimut":337.45,"temp2":26.80},"MPU6050":{"stat":1,"temp3":36.18,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:42","ms":107820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.48,"humi":27.07},"QMC5883L":{"azimut":337.23,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.18,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:43","ms":108820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.61,"temp":25.49,"humi":27.00},"QMC5883L":{"azimut":336.92,"temp2":26.82},"MPU6050":{"stat":1,"temp3":26.34,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:45","ms":110820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.50,"humi":26.97},"QMC5883L":{"azimut":336.81,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.17,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:46","ms":111820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.49,"humi":26.97},"QMC5883L":{"azimut":337.33,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.19,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:47","ms":112820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.56,"temp":25.50,"humi":27.00},"QMC5883L":{"azimut":337.34,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.19,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:48","ms":113820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.55,"temp":25.49,"humi":26.96},"QMC5883L":{"azimut":336.76,"temp2":26.88},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:49","ms":114820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.62,"temp":25.50,"humi":26.91},"QMC5883L":{"azimut":337.10,"temp2":26.92},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:50","ms":115820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.56,"temp":25.50,"humi":26.94},"QMC5883L":{"azimut":337.36,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.35,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:51","ms":116820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.50,"humi":26.97},"QMC5883L":{"azimut":337.27,"temp2":26.89},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:52","ms":117820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.49,"humi":26.99},"QMC5883L":{"azimut":337.43,"temp2":26.89},"MPU6050":{"stat":1,"temp3":26.36,"accel":[0,0,0],"gyro":[0,0,-1]}}
+{"time":"06.02 12:17:53","ms":118820,"fifo":[0,20],"devError":0,"volt":3.30,"BME280":{"pres":764.58,"temp":25.50,"humi":26.98},"QMC5883L":{"azimut":336.93,"temp2":26.83},"MPU6050":{"stat":1,"temp3":36.16,"accel":[0,0,0],"gyro":[0,0,-1]}}

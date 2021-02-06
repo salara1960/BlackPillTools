@@ -1,0 +1,23 @@
+[5] 16.01 10:37:08 | device=W5500 ip=192.168.0.150
+	[Connected] Connect to client:  192.168.0.101
+get
+{"time":"16.01 10:37:14","ms":50860,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.81,"humi":30.05},"QMC5883L":{"azimut":335.43,"temp2":27.02},"MPU6050":{"stat":1,"temp3":26.98,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612609788:2
+get
+{"time":"06.02 13:09:51","ms":56160,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.81,"humi":30.04},"QMC5883L":{"azimut":335.87,"temp2":27.02},"MPU6050":{"stat":1,"temp3":26.97,"accel":[0,0,0],"gyro":[0,0,-1]}}
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+{"time":"06.02 13:10:01","ms":66160,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":764.59,"temp":25.81,"humi":30.59},"QMC5883L":{"azimut":335.34,"temp2":26.96},"MPU6050":{"stat":1,"temp3":27.00,"accel":[0,0,0],"gyro":[0,0,-1]}}
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+Socket ERROR (1) : The remote host closed the connection
+	[Connected] Connect to client:  192.168.0.101
+{"time":"16.01 10:36:34","ms":11010,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":764.57,"temp":25.80,"humi":31.71},"QMC5883L":{"azimut":335.63,"temp2":27.00},"MPU6050":{"stat":1,"temp3":27.03,"accel":[0,0,0],"gyro":[0,0,-1]}}
+get
+{"time":"16.01 10:36:39","ms":15890,"fifo":[0,5],"devError":0,"volt":3.30,"BME280":{"pres":764.60,"temp":25.79,"humi":32.25},"QMC5883L":{"azimut":336.05,"temp2":27.00},"MPU6050":{"stat":1,"temp3":27.05,"accel":[0,0,0],"gyro":[0,0,-1]}}
+epoch=1612609828:2
+lan
+	LAN : LinkUp 100Mpbs FullDuplex
+hΌ�]̯���y�O�Č
+�Ƽ���)X�%	Tcp socket create OK. Listen (1) tcp client...
+	Tcp socket create OK. Listen (1) tcp client...
